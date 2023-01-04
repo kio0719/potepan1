@@ -1,55 +1,81 @@
 a{
     text-decoration:none;
+    cursor:pointer;
   }
   
-  .nav{
+  .logo{
+    width:200px;
+  }
+  .header{
+    /*position:absolute;*/
     display:flex;
     justify-content:space-between;
-    margin:20px;
+    padding:20px;
   }
-  .nav-child{
+  .nav{
     display:flex;
     list-style:none;
     gap:10px;
     text-align:center;
   }
-  .nav-child li{
-    font-size:2px;
+  .nav li{
+    font-size:13px;
     font-weight: bold;
-  }
-  .nav-child li a{
-    color:#000;
-  }
-  .nav-counseling{
-    background-color:orange;
-    padding:5px 10px;
-    color:white;
-    border:1px solid orange;
-    border-radius:25px;
+    padding-right:13px;
+    text-align:center;
   }
   .nav-counseling a{
     color:#FFF;
   }
-  
-  
-  .main-center{
-    width:50%;
-    padding-left:7%;
+  .nav-item{
+    color:#000;
   }
-  .main h1{
-    text-align:center;
-  }
-  .button-group{
-    display:flex;
-    justify-content:center;
-    margin-bottom:5%;
-  }
-  .button-counseling{
+  .nav-counseling{
     background-color:orange;
     padding:10px 25px;
     color:white;
     border:1px solid orange;
     border-radius:25px;
+  }
+  
+  
+  
+  .big-bg{
+    background-image:url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+    background-size:cover;
+    background-position: center top;
+    min-height:90vh;
+  }
+  
+  .main{
+    margin-left:10%;
+  }
+  .main-center{
+    width:45%;
+  }
+  .main h1{
+    font-size:2rem;
+    text-align:center;
+  }
+  .img-group{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:5%;
+  }
+  .img-group img{
+    padding-right:8px;
+  }
+  .button-group{
+    display:flex;
+    justify-content:space-between;
+    padding-bottom:10%;
+  }
+  .button-counseling{
+    background-color:orange;
+    padding:20px 35px;
+    color:white;
+    border:1px solid orange;
+    border-radius:35px;
     margin-right:5px;
   }
   .button-counseling:hover{
@@ -57,18 +83,19 @@ a{
   }
   .button-document{
     background-color:#FFF;
-    padding:10px;
+    padding:20px;
     color:#000;
     border:1px solid #000;
-    border-radius:25px;
+    border-radius:35px;
   }
   .button-document:hover{
     
   }
   .notice{
     font-size:2px;
-    margin-bottom:5%;
     list-style:none;
+    padding-left:0;
+    padding-bottom:20px;
   }
   
   
@@ -76,7 +103,13 @@ a{
     display:flex;
     background-color:orange;
     color:#FFFFFF;
-    padding:20px 10%;
+    padding:40px 10%;
+  }
+  .description h2{
+    font-size:2rem;
+  }
+  .description p{
+    margin-bottom:1rem;
   }
   .description-main{
     width:50%;
