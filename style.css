@@ -31,12 +31,9 @@ a{
   padding-right:13px;
   text-align:center;
 }
-.nav-counseling a{
-  color:#FFF;
-  font-weight: bold;
-}
 .nav-item{
   color:#000;
+  font-weight: bold;
 }
 .nav-counseling{
   background-color:orange;
